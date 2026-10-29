@@ -7,9 +7,9 @@ category: Research
 permalink: /projects/culturelens/
 ---
 
-**HKUST (Guangzhou)** · Advisor: Prof. Pan Hui  
+**HKUST (GZ)** · Advisor: [Prof. Pan Hui](https://panhui.people.ust.hk/)  
 June 2026 ? September 2026
 
-CultureLens is an interactive video generation workbench that supports cross-cultural translation through four transcreation modes: Literal, Analogy, Explanation, and Sensation. The modes cover narrative restructuring, audiovisual presentation, and voice-over. Based on a formative study (N=8), mixed-methods studies from creator (N=18) and audience (N=54) perspectives show that it reduces mental demand versus a general-purpose LLM baseline, maintains usability, and reduces stereotypical perception among Western audiences.
+Short-form videos are essential for cross-cultural communication, yet general-purpose text-to-video AI tools can produce stereotypes or literal translations of cultural terms. However, little research has tackled this. Based on a formative study (N=8), we designed and implemented CultureLens, an interactive video generation workbench that supports creators in explicitly steering cross-cultural translation through four transcreation (translation and creation) modes?Literal, Analogy, Explanation, and Sensation?covering video narrative structure reconstruction, audiovisual presentation, and voice-over narration. Mixed-methods studies from creator (N=18) and audience (N=54) perspectives suggest that CultureLens reduces mental demand compared to a general-purpose LLM baseline while ensuring usability, and videos generated reduce stereotypical perception among Western audience. Findings further suggest translation is not merely textual substitution but a restructuring of the video's narrative framework. Moreover, the greater the cultural distance, the more translation choices affect audience comprehension. We discuss design implications for cross-cultural AI creative tools.
 
 Figures, video, and code will be added.

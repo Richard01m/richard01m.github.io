@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: MPhil Student, Computational Media and Arts · HKUST (Guangzhou)
+subtitle: MPhil Student, Computational Media and Arts · HKUST(GZ)
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p>MPhil Student</p>
     <p>Computational Media and Arts</p>
-    <p><a href="https://www.hkust-gz.edu.cn/">HKUST (Guangzhou)</a></p>
+    <p><a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a></p>
     <p>Advisor: <a href="https://panhui.people.ust.hk/">Prof. Pan Hui</a></p>
 
 selected_papers: false
@@ -26,18 +26,20 @@ latest_posts:
   enabled: false
 ---
 
-I am an MPhil student in Computational Media and Arts at The Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Pan Hui](https://panhui.people.ust.hk/). I received my B.Eng. in Intelligent Science and Technology from Shanghai University in 2025 (GPA 87.03/100, major ranking 9/58), where I was advised by [Prof. Liming Xin](https://cs.shu.edu.cn/info/1461/40551.htm).
+Hi, everyone! My name is Xiangze Meng, and you can also call me Richard! Now I am an MPhil student in Computational Media and Arts at The Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Pan Hui](https://panhui.people.ust.hk/). I received my B.Eng. in Intelligent Science and Technology from Shanghai University in 2025, where I was advised by [Prof. Liming Xin](https://cs.shu.edu.cn/info/1461/40551.htm).
 
 I study how people work with generative models. My research interests are human–AI interaction, video generation, agents, and computer vision.
+
+I enjoy swimming 🏊, badminton 🏸, basketball 🏀, and table tennis 🏓. In my spare time, I also love photography 📷. I often travel with my camera, even though it is really heavy!
 
 ## Education
 
 **MPhil in Computational Media and Arts**, 2025–present  
-The Hong Kong University of Science and Technology (Guangzhou)  
+HKUST (GZ)  
 Advisor: [Prof. Pan Hui](https://panhui.people.ust.hk/)
 
 **B.Eng. in Intelligent Science and Technology**, 2021–2025  
-Shanghai University · GPA 87.03/100 · Major ranking 9/58  
+Shanghai University  
 Advisor: [Prof. Liming Xin](https://cs.shu.edu.cn/info/1461/40551.htm)
 
 ## Research
@@ -45,68 +47,48 @@ Advisor: [Prof. Liming Xin](https://cs.shu.edu.cn/info/1461/40551.htm)
 ### [CultureLens]({{ '/projects/culturelens/' | relative_url }})
 
 Steerable Human–AI Video Storytelling with Cultural Transcreation Strategies  
-HKUST (Guangzhou) · Advisor: Prof. Pan Hui · June 2026 – September 2026
+HKUST (GZ) · Advisor: [Prof. Pan Hui](https://panhui.people.ust.hk/) · June 2026 – September 2026
 
-CultureLens is an interactive video generation workbench that supports cross-cultural translation through four transcreation modes: Literal, Analogy, Explanation, and Sensation. The modes cover narrative restructuring, audiovisual presentation, and voice-over. Based on a formative study (N=8), mixed-methods studies from creator (N=18) and audience (N=54) perspectives show that it reduces mental demand versus a general-purpose LLM baseline, maintains usability, and reduces stereotypical perception among Western audiences.
+Short-form videos are essential for cross-cultural communication, yet general-purpose text-to-video AI tools can produce stereotypes or literal translations of cultural terms. However, little research has tackled this. Based on a formative study (N=8), we designed and implemented CultureLens, an interactive video generation workbench that supports creators in explicitly steering cross-cultural translation through four transcreation (translation and creation) modes—Literal, Analogy, Explanation, and Sensation—covering video narrative structure reconstruction, audiovisual presentation, and voice-over narration. Mixed-methods studies from creator (N=18) and audience (N=54) perspectives suggest that CultureLens reduces mental demand compared to a general-purpose LLM baseline while ensuring usability, and videos generated reduce stereotypical perception among Western audience. Findings further suggest translation is not merely textual substitution but a restructuring of the video's narrative framework. Moreover, the greater the cultural distance, the more translation choices affect audience comprehension. We discuss design implications for cross-cultural AI creative tools.
 
 ### [RepoDirector]({{ '/projects/repodirector/' | relative_url }})
 
 Decision-Carrying Storyboards for Repository-Grounded Generative Video Authoring  
-HKUST (Guangzhou) · Advisor: Prof. Anyi Rao · March 2026 – May 2026
+HKUST (GZ) · Advisor: [Prof. Anyi Rao](https://anyirao.com) · March 2026 – May 2026
 
-RepoDirector is an integrated authoring system for open-source promotional videos, centered on a persistent editable storyboard carrying scene-level narration, prompts, assets, ordering, and production status across stages. Offline validation found repository contexts generally evidence-supported but incomplete. In a within-subjects study (N=18), it reduced all NASA-TLX workload dimensions and raised SUS from 41.94 to 79.58 versus a fragmented toolchain, with scene-local interventions in 11/18 sessions, though owner judgments showed no consistent final-video quality advantage.
+Creating promotional videos for open-source projects requires developers to translate repository content into audience-facing narratives while coordinating scripts, generated media, and editing across disconnected tools. We present RepoDirector, an integrated authoring system organized around a persistent, editable storyboard that carries scene-level narration, prompts, assets, ordering, and production status across stages. An offline validation showed that automatically constructed repository contexts were generally evidence-supported but incomplete in feature coverage. In a counterbalanced within-subjects study with 18 participants, the complete RepoDirector workflow reduced perceived workload across all NASA-TLX dimensions and increased mean SUS from 41.94 to 79.58 relative to a fragmented toolchain. Interaction logs showed scene-local intervention in 11 of 18 sessions, including direct editing, targeted regeneration, and cross-stage revisitation. Repository-owner judgments showed no consistent final-video quality advantage, distinguishing workflow-level coordination benefits from artifact quality.
 
 ### [GlyphFix]({{ '/projects/glyphfix/' | relative_url }})
 
 An Interactive Agent for Optimizing Garbled Text in AI-Generated Videos  
-HKUST (Guangzhou) · Advisor: Prof. Pan Hui · February 2026 – May 2026
+HKUST (GZ) · Advisor: [Prof. Pan Hui](https://panhui.people.ust.hk/) · February 2026 – May 2026
 
-GlyphFix is an interactive multimodal agent that repairs garbled text in AI-generated videos via aesthetic decoupling, separating semantic restoration from generative artifacts. It employs a cascading pipeline with LLMs and VLMs for semantic inference and computer vision for spatiotemporal tracking, plus a mixed-initiative workspace that automates tracking while reserving typographic control for users.
+AI-generated videos can have illegible or temporally unstable text when the scene remains usable. We present GlyphFix, a mixed-initiative workflow for localized text repair that separates semantic content, spatial behavior, and visual appearance. GlyphFix associates text regions across frames, generates revisable semantic proposals, stabilizes estimated trajectories, and supports bounded appearance editing. A formative study with five video creators informed the workflow; an offline technical characterization examined semantic proposal ranking and spatial processing; and a within-subject study with 16 participants evaluated execution of creator-known repairs. GlyphFix required 27.2% of the mean completion time of participant-selected conventional workflows. An assessment by five raters found high semantic correctness (M=6.00, SD=0.71), repair quality of M=4.60 (SD=1.14), and 80% practical-use acceptability, while visual integration remained limited. Interviews showed automation reduced repetitive frame-level work while redistributing creator control across repair layers. We articulate aesthetic decoupling as selectively preserving evidence from generated artifacts while re-authoring unstable properties.
 
 ### [Fideli3D]({{ '/projects/fideli3d/' | relative_url }})
 
 A Multi-Agent Framework for Geometrically Consistent 3D Data Storytelling  
-HKUST (Guangzhou) · Advisor: Prof. Pan Hui · January 2026 – May 2026
+HKUST (GZ) · Advisor: [Prof. Pan Hui](https://panhui.people.ust.hk/) · January 2026 – May 2026
 
-Fideli3D is a multi-agent framework that transforms narrative text into 3D data videos via a layered pipeline. A Semantic Layer parses narrative intent into shot scripts. An Asset Layer procedurally assembles 3D entities. A Configuration Layer maps high-level intent to required visual properties. An Optimization Layer formulates camera control as a constraint satisfaction problem to derive optimal trajectories.
+While generative AI has democratized visual content creation, ensuring geometric consistency and analytical faithfulness in 3D data storytelling remains a persistent challenge. End-to-end pixel-based generative models often lack the precise spatial control required for rigorous data communication, as stochastic hallucinations lead to inconsistent spatial proportions and "drifting" artifacts. We present Fideli3D, a multi-agent framework that transforms narrative text into immersive, geometrically consistent 3D data videos. Fideli3D operates through a specialized layered pipeline, which mainly includes: (1) a Semantic Layer that parses narrative intent into structured shot scripts; (2) an Asset Generation Layer that procedurally assembles 3D entities; (3) a Configuration Layer that maps high-level intent into Required Visual Properties (RVPs); and (4) an Optimization Layer that frames camera control as a Constraint Satisfaction Problem (CSP) and applies optimal search over the feasible set to derive camera trajectories. Fideli3D achieves a superior balance among narrative legibility, aesthetic composition, and temporal continuity. Quantitative benchmarks using VBench and user studies demonstrate that Fideli3D significantly outperforms state-of-the-art commercial models in background consistency and data faithfulness, establishing a robust paradigm for automated, high-fidelity data communication.
 
 ### [Ink Symphony]({{ '/projects/ink-symphony/' | relative_url }})
 
-A “Zhi Yin” Narrative from Calligraphy to Music in VR  
-HKUST (Guangzhou) · Advisor: Prof. Kang Zhang · January 2026 – April 2026
+A "Zhi Yin" Narrative from Calligraphy to Music in VR  
+HKUST (GZ) · Advisor: [Prof. Kang Zhang](https://cma.hkust-gz.edu.cn/faculty-regular/kang-zhang/) · January 2026 – April 2026
 
-Ink Symphony is a VR system that lets users practice calligraphy in a traditional Chinese landscape. The system captures brushstrokes, analyzes stroke speed and pressure, and generates real-time traditional Chinese music. Tempo adapts to writing speed, while music type and intensity respond to stroke weight. The final output is a synchronized calligraphy video with a context-aware melody that matches the writing process.
+For centuries, Chinese calligraphy has been seen mainly as a visual art. However, the musical qualities of brush movement, including speed and rhythm, remain largely unexplored in digital representations. This paper presents Ink Symphony, a VR approach that turns the act of writing into music. We draw on the classical Chinese story of "Zhi Yin," in which the listener Zhong Ziqi could hear Bo Ya's music and imagine mountains and rivers in his mind. In our approach, the user writes with a virtual brush in a digital landscape, taking the role of Bo Ya, while a computational listener responds like Zhong Ziqi with music. By treating "Zhi Yin" as a framework for cross-modal interaction, we present a culturally grounded way to connect calligraphic action with sound. The approach offers an additional auditory perspective on calligraphic movement and temporality, presented as a design exploration without formal evaluation.
 
 ### [Human Preference Decoding]({{ '/projects/human-preference-decoding/' | relative_url }})
 
 Human Preference Decoding via ERP Analysis  
-Shanghai University · Advisor: Prof. Huiran Zhang · July 2024 – December 2024
+Shanghai University · Advisor: [Prof. Huiran Zhang](https://cs.shu.edu.cn/info/1471/40951.htm) · July 2024 – December 2024
 
-This project investigated neural correlates of human preference using event-related potentials, focusing on early N1 and late positive potential components. EEG data were analyzed from participants viewing a mixed-image dataset. N1 amplitude in frontal regions increased for preferred items, while LPP amplitude was larger for both preferred and non-preferred items. The work proposes an integrated model combining N1 and LPP to quantify preference intensity and direction. Preprint: [arXiv:2505.19879](https://arxiv.org/abs/2505.19879).
+Human preference research is a significant domain in psychology and psychophysiology, with broad applications in psychiatric evaluation and daily life quality enhancement. This study explores the neural mechanisms of human preference judgments through the analysis of event-related potentials (ERPs), specifically focusing on the early N1 component and the late positive potential (LPP). Using a mixed-image dataset covering items such as hats, fruits, snacks, scarves, drinks, and pets, we elicited a range of emotional responses from participants while recording their brain activity via EEG. Our work innovatively combines the N1 and LPP components to reveal distinct patterns across different preference levels. The N1 component, particularly in frontal regions, showed increased amplitude for preferred items, indicating heightened early visual attention. Similarly, the LPP component exhibited larger amplitudes for both preferred and non-preferred items, reflecting deeper emotional engagement and cognitive evaluation. In addition, we introduced a relationship model that integrates these ERP components to assess the intensity and direction of preferences, providing a novel method for interpreting EEG data in the context of emotional responses. These findings offer valuable insights into the cognitive and emotional processes underlying human preferences and present new possibilities for brain-computer interface applications, personalized marketing, and product design. Preprint: [arXiv:2505.19879](https://arxiv.org/abs/2505.19879).
 
 ### [Lake Water-Level Control]({{ '/projects/lake-water-level/' | relative_url }})
 
 Neural Network Anti-Interference Controller for Lake Water Level Balance  
-Shanghai University · Advisor: Prof. Liming Xin · January 2024 – May 2024
+Shanghai University · Advisor: [Prof. Liming Xin](https://cs.shu.edu.cn/info/1461/40551.htm) · January 2024 – May 2024
 
-This project proposed a neural-network anti-interference architecture for lake water-level control, enabling real-time sensing of water-level changes and automatic adjustment to maintain stability. It analyzed the spatial distribution and historical hydrological data of the lake area, established the mathematical model for water-level balance control, and designed the neural-network controller structure. Paper: [DOI:10.1117/12.3035322](https://doi.org/10.1117/12.3035322).
-
-### [Multimodal Depression Recognition]({{ '/projects/multimodal-depression-recognition/' | relative_url }})
-
-Personality Measurement via Intelligent Interview  
-Shanghai University · Advisor: Prof. Xing Wu · July 2023 – December 2023
-
-This project developed a Transformer-based multimodal model combining speech and facial recognition to assess depression severity through AI-driven interviews. My part was facial-feature preprocessing and detection with OpenCV, followed by feature extraction and analysis with YOLOv8. The extracted features were transformed into signal representations and passed to a large model for the final evaluation.
-
-### [Welding Defect Detection]({{ '/projects/welding-defect-detection/' | relative_url }})
-
-Shanghai University · Advisor: Prof. Xing Wu · March 2023 – September 2023
-
-This project developed a YOLOv5-based defect detection system for industrial welding inspection. A factory-provided image dataset was curated and labeled into four defect categories: crack, rust, bubble, and impurity. The model was trained and validated on real production-line data. The system achieved a 34.31% reduction in manual inspection time and a 15.63% improvement in detection accuracy compared with existing baseline methods.
-
-### [Aviation Safety Risk Analysis]({{ '/projects/aviation-safety/' | relative_url }})
-
-Risk Analysis and Flight Technical Assessment Based on Aviation Safety Data  
-Shanghai University · Advisor: Prof. Xing Wu · February 2023 – May 2023
-
-This project collected and cleaned Quick Access Recorder data, exceedance data, and flight operation data from the Civil Aviation Administration of China website. A random forest classifier identified key environmental factors affecting aviation safety. A real-time automated early-warning mechanism was built with an Extra Trees classification model.
+Due to the complexity of hydrological characteristics in lake systems and their susceptibility to environmental changes, water level control in lake systems has always been a highly challenging issue. This paper proposes a water level equilibrium control scheme for lake systems based on an intelligent anti-interference architecture using neural networks. By analyzing the spatial distribution structure and historical hydrological data of the Great Lakes system, a mathematical model for water level equilibrium control is established. Subsequently, an intelligent controller structure based on neural networks is proposed. This controller can real-time perceive changes in lake system water levels and automatically adjust control strategies to maintain water levels fluctuating within appropriate ranges. Finally, the proposed method is applied to a simulator of the Great Lakes system in North America. The results indicate that the proposed method can achieve stable control of lake water levels under different environmental conditions, demonstrating good stability and robustness. Paper: [DOI:10.1117/12.3035322](https://doi.org/10.1117/12.3035322).
