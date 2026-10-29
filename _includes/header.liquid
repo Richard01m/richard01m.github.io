@@ -146,4 +146,67 @@
       </div>
     </progress>
   {% endif %}
+  <style>
+    .research-thumb {
+      float: left;
+      width: 148px;
+      margin: 0.2rem 1rem 0.55rem 0;
+      border-radius: 8px;
+      border: 1px solid color-mix(in srgb, var(--global-text-color) 12%, transparent);
+    }
+    .research-card::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .edu-row {
+      display: flex;
+      gap: 0.9rem;
+      align-items: flex-start;
+      margin: 0.75rem 0 0.95rem;
+    }
+    .edu-logo {
+      width: 54px;
+      height: 54px;
+      object-fit: contain;
+      flex: none;
+      margin-top: 0.15rem;
+      padding: 4px;
+      background: #fff;
+      border-radius: 8px;
+    }
+    .edu-row p {
+      margin: 0 0 0.15rem;
+    }
+    .project-media {
+      margin-top: 1.75rem;
+    }
+    .project-figure {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 1px solid color-mix(in srgb, var(--global-text-color) 12%, transparent);
+    }
+    .project-video {
+      display: block;
+      width: 100%;
+      max-height: 70vh;
+      margin: 0 0 1rem;
+      border-radius: 10px;
+      background: #111;
+    }
+    .project-video-label {
+      margin: 0.35rem 0 0.35rem;
+      font-weight: 600;
+    }
+    @media (max-width: 575px) {
+      .research-thumb {
+        float: none;
+        display: block;
+        width: min(100%, 280px);
+        margin-bottom: 0.75rem;
+      }
+    }
+  </style>
 </header>
