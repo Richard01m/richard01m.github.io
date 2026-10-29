@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research projects. Figures, videos, and links will be added on each page.
+description: Research projects.
 nav: true
 nav_order: 3
 display_categories: [Research]

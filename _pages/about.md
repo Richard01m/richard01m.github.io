@@ -93,7 +93,7 @@ latest_posts:
     </div>
   </div>
   <div class="edu-row">
-    <img class="edu-logo" src="{{ '/assets/img/logos/shu.png' | relative_url }}" alt="Shanghai University">
+    <img class="edu-logo" src="{{ '/assets/img/logos/shu.png' | relative_url }}?v=2" alt="Shanghai University">
     <div>
       <p><strong>B.Eng. in Intelligent Science and Technology</strong>, 2021–2025</p>
       <p>Shanghai University</p>
