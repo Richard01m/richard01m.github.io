@@ -85,7 +85,7 @@ latest_posts:
 
 <div class="soft-card education-card">
   <div class="edu-row">
-    <img class="edu-logo" src="{{ '/assets/img/logos/hkust.svg' | relative_url }}" alt="HKUST">
+    <img class="edu-logo" src="{{ '/assets/img/logos/hkust.png' | relative_url }}?v=2" alt="HKUST">
     <div>
       <p><strong>MPhil in Computational Media and Arts</strong>, 2025–present</p>
       <p>HKUST (GZ)</p>
