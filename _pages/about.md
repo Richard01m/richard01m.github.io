@@ -51,9 +51,6 @@ latest_posts:
   .intro-card .more-info p {
     display: block;
   }
-  .education-card h2 {
-    margin-top: 0.25rem;
-  }
   .prize-card {
     padding-top: 0.75rem;
     padding-bottom: 0.45rem;
@@ -75,9 +72,9 @@ latest_posts:
   <p>I enjoy swimming 🏊, badminton 🏸, basketball 🏀, and table tennis 🏓. In my spare time, I also love photography 📷. I often travel with my camera, even though it is really heavy!</p>
 </div>
 
-<div class="soft-card education-card" markdown="1">
-
 ## Education
+
+<div class="soft-card education-card" markdown="1">
 
 **MPhil in Computational Media and Arts**, 2025–present  
 HKUST (GZ)  
