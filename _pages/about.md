@@ -4,16 +4,6 @@ title: about
 permalink: /
 subtitle: MPhil Student, Computational Media and Arts · HKUST(GZ)
 
-profile:
-  align: left
-  image: prof_pic.jpg
-  image_circular: false
-  more_info: >
-    <p>MPhil Student</p>
-    <p>Computational Media and Arts</p>
-    <p><a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a></p>
-    <p>Advisor: <a href="https://panhui.people.ust.hk/">Prof. Pan Hui</a></p>
-
 selected_papers: false
 social: true
 
@@ -28,35 +18,64 @@ latest_posts:
 
 <style>
   .profile.float-left {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
   @media (min-width: 576px) {
     .profile.float-left {
       margin-right: 2.75rem;
-      margin-bottom: 2rem;
+      margin-bottom: 0.5rem;
     }
   }
 
-  #research {
-    clear: both;
-  }
-  .research-card {
+  .soft-card {
     margin: 0 0 0.95rem;
-    padding: 0.15rem 1.15rem 0.2rem;
+    padding: 0.9rem 1.15rem 0.45rem;
     border: 1px solid color-mix(in srgb, var(--global-text-color) 12%, transparent);
     border-radius: 10px;
     background: color-mix(in srgb, var(--global-text-color) 3.5%, var(--global-bg-color));
   }
+  .research-card {
+    padding: 0.15rem 1.15rem 0.2rem;
+  }
   .research-card h3 {
     margin-top: 0.85rem;
   }
+  .intro-card {
+    padding: 1.15rem 1.2rem 0.55rem;
+  }
+  .intro-card::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .intro-card .more-info p {
+    display: block;
+  }
+  .education-card h2 {
+    margin-top: 0.25rem;
+  }
+  .prize-card {
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+  }
 </style>
 
-Hi, everyone! My name is Xiangze Meng, and you can also call me Richard! Now I am an MPhil student in Computational Media and Arts at The Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Pan Hui](https://panhui.people.ust.hk/). I received my B.Eng. in Intelligent Science and Technology from Shanghai University in 2025, where I was advised by [Prof. Liming Xin](https://cs.shu.edu.cn/info/1461/40551.htm).
+<div class="soft-card intro-card">
+  <div class="profile float-left">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Xiangze Meng" class="img-fluid z-depth-1 rounded" loading="eager">
+    <div class="more-info">
+      <p>MPhil Student</p>
+      <p>Computational Media and Arts</p>
+      <p><a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a></p>
+      <p>Advisor: <a href="https://panhui.people.ust.hk/">Prof. Pan Hui</a></p>
+    </div>
+  </div>
+  <p>Hi, everyone! My name is Xiangze Meng, and you can also call me Richard! Now I am an MPhil student in Computational Media and Arts at The Hong Kong University of Science and Technology (Guangzhou), advised by <a href="https://panhui.people.ust.hk/">Prof. Pan Hui</a>. I received my B.Eng. in Intelligent Science and Technology from Shanghai University in 2025, where I was advised by <a href="https://cs.shu.edu.cn/info/1461/40551.htm">Prof. Liming Xin</a>.</p>
+  <p>I study how people work with generative models. My research interests are human–AI interaction, video generation, agents, and computer vision.</p>
+  <p>I enjoy swimming 🏊, badminton 🏸, basketball 🏀, and table tennis 🏓. In my spare time, I also love photography 📷. I often travel with my camera, even though it is really heavy!</p>
+</div>
 
-I study how people work with generative models. My research interests are human–AI interaction, video generation, agents, and computer vision.
-
-I enjoy swimming 🏊, badminton 🏸, basketball 🏀, and table tennis 🏓. In my spare time, I also love photography 📷. I often travel with my camera, even though it is really heavy!
+<div class="soft-card education-card" markdown="1">
 
 ## Education
 
@@ -68,9 +87,11 @@ Advisor: [Prof. Pan Hui](https://panhui.people.ust.hk/)
 Shanghai University  
 Advisor: [Prof. Liming Xin](https://cs.shu.edu.cn/info/1461/40551.htm)
 
+</div>
+
 ## Research
 
-<div class="research-card" markdown="1">
+<div class="soft-card research-card" markdown="1">
 
 ### [CultureLens]({{ '/projects/culturelens/' | relative_url }})
 
@@ -81,7 +102,7 @@ Short-form videos are essential for cross-cultural communication, yet general-pu
 
 </div>
 
-<div class="research-card" markdown="1">
+<div class="soft-card research-card" markdown="1">
 
 ### [RepoDirector]({{ '/projects/repodirector/' | relative_url }})
 
@@ -92,7 +113,7 @@ Creating promotional videos for open-source projects requires developers to tran
 
 </div>
 
-<div class="research-card" markdown="1">
+<div class="soft-card research-card" markdown="1">
 
 ### [GlyphFix]({{ '/projects/glyphfix/' | relative_url }})
 
@@ -103,7 +124,7 @@ AI-generated videos can have illegible or temporally unstable text when the scen
 
 </div>
 
-<div class="research-card" markdown="1">
+<div class="soft-card research-card" markdown="1">
 
 ### [Fideli3D]({{ '/projects/fideli3d/' | relative_url }})
 
@@ -114,7 +135,7 @@ While generative AI has democratized visual content creation, ensuring geometric
 
 </div>
 
-<div class="research-card" markdown="1">
+<div class="soft-card research-card" markdown="1">
 
 ### [Ink Symphony]({{ '/projects/ink-symphony/' | relative_url }})
 
@@ -125,7 +146,7 @@ For centuries, Chinese calligraphy has been seen mainly as a visual art. However
 
 </div>
 
-<div class="research-card" markdown="1">
+<div class="soft-card research-card" markdown="1">
 
 ### [Human Preference Decoding]({{ '/projects/human-preference-decoding/' | relative_url }})
 
@@ -136,7 +157,7 @@ Human preference research is a significant domain in psychology and psychophysio
 
 </div>
 
-<div class="research-card" markdown="1">
+<div class="soft-card research-card" markdown="1">
 
 ### [Lake Water-Level Control]({{ '/projects/lake-water-level/' | relative_url }})
 
