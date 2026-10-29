@@ -1,0 +1,173 @@
+cv:
+  name: Xiangze Meng
+  label: MPhil Student, Computational Media and Arts
+  email: xmeng560@connect.hkust-gz.edu.cn
+  location: Guangzhou, China
+  image: ""
+  summary: MPhil student at HKUST (Guangzhou), advised by Prof. Pan Hui. Previously advised by Prof. Liming Xin at Shanghai University. Research interests include human-AI interaction, video generation, agents, and computer vision.
+
+  social_networks:
+    - network: GitHub
+      username: Richard01m
+
+  address:
+    city: Guangzhou
+    region: Guangdong
+    countryCode: CN
+
+  sections:
+    Education:
+      - institution: The Hong Kong University of Science and Technology (Guangzhou)
+        location: Guangzhou, China
+        url: https://www.hkust-gz.edu.cn/
+        area: Computational Media and Arts
+        studyType: MPhil
+        start_date: 2025-09
+        end_date: present
+        highlights:
+          - "Advisor: Prof. Pan Hui."
+          - Research interests include human-AI interaction, video generation, agents, and computer vision.
+
+      - institution: Shanghai University
+        location: Shanghai, China
+        url: https://www.shu.edu.cn/
+        area: Intelligent Science and Technology
+        studyType: B.Eng.
+        start_date: 2021-09
+        end_date: 2025-06
+        score: "87.03/100"
+        highlights:
+          - "Advisor: Prof. Liming Xin."
+          - "Major ranking: 9/58 (15.5%)."
+
+    Experience:
+      - company: The Hong Kong University of Science and Technology (Guangzhou)
+        position: "CultureLens: Steerable Human-AI Video Storytelling"
+        location: Guangzhou, China
+        start_date: 2026-06
+        end_date: 2026-09
+        summary: >
+          Advisor: Prof. Pan Hui. CultureLens is an interactive video generation workbench
+          that supports cross-cultural translation through four transcreation modes: Literal,
+          Analogy, Explanation, and Sensation, covering narrative restructuring, audiovisual
+          presentation, and voice-over. Based on a formative study (N=8), mixed-methods studies
+          from creator (N=18) and audience (N=54) perspectives show that it reduces mental demand
+          versus a general-purpose LLM baseline, maintains usability, and reduces stereotypical
+          perception among Western audiences.
+
+      - company: The Hong Kong University of Science and Technology (Guangzhou)
+        position: "RepoDirector: Repository-Grounded Generative Video"
+        location: Guangzhou, China
+        start_date: 2026-03
+        end_date: 2026-05
+        summary: >
+          Advisor: Prof. Anyi Rao. RepoDirector is an integrated authoring system for open-source
+          promotional videos, centered on a persistent editable storyboard carrying scene-level
+          narration, prompts, assets, ordering, and production status across stages. Offline
+          validation found repository contexts generally evidence-supported but incomplete. In a
+          within-subjects study (N=18), it reduced all NASA-TLX workload dimensions and raised SUS
+          from 41.94 to 79.58 versus a fragmented toolchain, with scene-local interventions in
+          11/18 sessions, though owner judgments showed no consistent final-video quality advantage.
+
+      - company: The Hong Kong University of Science and Technology (Guangzhou)
+        position: "GlyphFix: Repairing Garbled Text in AI-Generated Video"
+        location: Guangzhou, China
+        start_date: 2026-02
+        end_date: 2026-05
+        summary: >
+          Advisor: Prof. Pan Hui. GlyphFix is an interactive multimodal agent that repairs garbled
+          text in AI-generated videos via aesthetic decoupling, separating semantic restoration from
+          generative artifacts. It employs a cascading pipeline with LLMs and VLMs for semantic
+          inference and computer vision for spatiotemporal tracking, plus a mixed-initiative
+          workspace that automates tracking while reserving typographic control for users.
+
+      - company: The Hong Kong University of Science and Technology (Guangzhou)
+        position: "Fideli3D: Geometrically Consistent 3D Data Storytelling"
+        location: Guangzhou, China
+        start_date: 2026-01
+        end_date: 2026-05
+        summary: >
+          Advisor: Prof. Pan Hui. Fideli3D is a multi-agent framework that transforms narrative text
+          into 3D data videos via a layered pipeline. A Semantic Layer parses narrative intent into
+          shot scripts. An Asset Layer procedurally assembles 3D entities. A Configuration Layer maps
+          high-level intent to required visual properties. An Optimization Layer formulates camera
+          control as a constraint satisfaction problem to derive optimal trajectories.
+
+      - company: The Hong Kong University of Science and Technology (Guangzhou)
+        position: "Ink Symphony: Calligraphy to Music in VR"
+        location: Guangzhou, China
+        start_date: 2026-01
+        end_date: 2026-04
+        summary: >
+          Advisor: Prof. Kang Zhang. Ink Symphony is a VR system that lets users practice calligraphy
+          in a traditional Chinese landscape. The system captures brushstrokes, analyzes stroke speed
+          and pressure, and generates real-time traditional Chinese music. Tempo adapts to writing
+          speed, while music type and intensity respond to stroke weight. The final output is a
+          synchronized calligraphy video with a context-aware melody that matches the writing process.
+
+      - company: Shanghai University
+        position: Human Preference Decoding via ERP Analysis
+        location: Shanghai, China
+        start_date: 2024-07
+        end_date: 2024-12
+        summary: >
+          Advisor: Prof. Huiran Zhang. Investigated neural correlates of human preference using
+          event-related potentials, focusing on early N1 and late positive potential components.
+          Analyzed EEG data from participants viewing a mixed-image dataset. N1 amplitude in frontal
+          regions increased for preferred items, while LPP amplitude was larger for both preferred
+          and non-preferred items. Proposed an integrated model combining N1 and LPP to quantify
+          preference intensity and direction. Preprint: arXiv:2505.19879.
+
+      - company: Shanghai University
+        position: Neural Network Controller for Lake Water-Level Balance
+        location: Shanghai, China
+        start_date: 2024-01
+        end_date: 2024-05
+        summary: >
+          Advisor: Prof. Liming Xin. Proposed a neural-network anti-interference architecture for
+          lake water-level control, enabling real-time sensing of water-level changes and automatic
+          adjustment to maintain stability. Analyzed the spatial distribution and historical
+          hydrological data of the lake area, established the mathematical model for water-level
+          balance control, and designed the neural-network controller structure.
+          DOI:10.1117/12.3035322.
+
+      - company: Shanghai University
+        position: Multimodal Depression Recognition
+        location: Shanghai, China
+        start_date: 2023-07
+        end_date: 2023-12
+        summary: >
+          Advisor: Prof. Xing Wu. Developed a Transformer-based multimodal model combining speech and
+          facial recognition to assess depression severity through AI-driven interviews. Responsible
+          for facial-feature preprocessing and detection with OpenCV, followed by feature extraction
+          and analysis with YOLOv8. Transformed the extracted features into signal representations
+          and passed them to a large model for the final evaluation.
+
+      - company: Shanghai University
+        position: Welding Defect Detection
+        location: Shanghai, China
+        start_date: 2023-03
+        end_date: 2023-09
+        summary: >
+          Advisor: Prof. Xing Wu. Developed a YOLOv5-based defect detection system for industrial
+          welding inspection. Curated and labeled a factory-provided image dataset into four defect
+          categories: crack, rust, bubble, and impurity. Trained and validated the model on real
+          production-line data. The system achieved a 34.31% reduction in manual inspection time and
+          a 15.63% improvement in detection accuracy compared with existing baseline methods.
+
+      - company: Shanghai University
+        position: Aviation Safety Risk Analysis
+        location: Shanghai, China
+        start_date: 2023-02
+        end_date: 2023-05
+        summary: >
+          Advisor: Prof. Xing Wu. Collected and cleaned Quick Access Recorder data, exceedance data,
+          and flight operation data from the Civil Aviation Administration of China website. Used a
+          random forest classifier to identify key environmental factors affecting aviation safety.
+          Built a real-time automated early-warning mechanism using an Extra Trees classification model.
+
+    Interests:
+      - name: Human-AI Interaction
+      - name: Video Generation
+      - name: Agents
+      - name: Computer Vision
