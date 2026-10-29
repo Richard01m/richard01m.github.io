@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ink Symphony
+period: January 2026 - April 2026
 description: A "Zhi Yin" narrative from calligraphy to music in VR.
 importance: 5
 category: Research

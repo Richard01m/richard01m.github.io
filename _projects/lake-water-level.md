@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Lake Water-Level Control
+period: January 2024 - May 2024
 description: A neural-network anti-interference controller for lake water level.
 importance: 7
 category: Research

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: RepoDirector
+period: March 2026 - May 2026
 description: Decision-carrying storyboards for repository-grounded generative video.
 importance: 2
 category: Research

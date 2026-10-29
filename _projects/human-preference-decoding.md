@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Human Preference Decoding
+period: July 2024 - December 2024
 description: Neural correlates of preference from ERP analysis.
 importance: 6
 category: Research

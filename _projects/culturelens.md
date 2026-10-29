@@ -1,6 +1,7 @@
 ---
 layout: page
 title: CultureLens
+period: June 2026 - September 2026
 description: Steerable human-AI video storytelling with cultural transcreation strategies.
 importance: 1
 category: Research

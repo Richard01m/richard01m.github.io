@@ -1,6 +1,7 @@
 ---
 layout: page
 title: GlyphFix
+period: February 2026 - May 2026
 description: An interactive agent for repairing garbled text in AI-generated video.
 importance: 3
 category: Research

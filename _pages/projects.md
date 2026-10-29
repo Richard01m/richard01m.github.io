@@ -10,6 +10,18 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<style>
+  .projects .card-title {
+    margin-bottom: 0.2rem;
+  }
+  .projects .card-period {
+    margin: 0 0 0.45rem;
+    font-size: 0.8rem;
+    line-height: 1.35;
+    color: var(--global-text-color-light);
+  }
+</style>
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

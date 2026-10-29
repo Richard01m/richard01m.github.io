@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Fideli3D
+period: January 2026 - May 2026
 description: A multi-agent framework for geometrically consistent 3D data storytelling.
 importance: 4
 category: Research
