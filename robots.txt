@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://richard01m.github.io/sitemap.xml
