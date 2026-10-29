@@ -26,6 +26,18 @@ latest_posts:
   enabled: false
 ---
 
+<style>
+  .profile.float-left {
+    margin-bottom: 1.5rem;
+  }
+  @media (min-width: 576px) {
+    .profile.float-left {
+      margin-right: 2.75rem;
+      margin-bottom: 2rem;
+    }
+  }
+</style>
+
 Hi, everyone! My name is Xiangze Meng, and you can also call me Richard! Now I am an MPhil student in Computational Media and Arts at The Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Pan Hui](https://panhui.people.ust.hk/). I received my B.Eng. in Intelligent Science and Technology from Shanghai University in 2025, where I was advised by [Prof. Liming Xin](https://cs.shu.edu.cn/info/1461/40551.htm).
 
 I study how people work with generative models. My research interests are human–AI interaction, video generation, agents, and computer vision.
