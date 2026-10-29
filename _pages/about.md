@@ -67,8 +67,8 @@ latest_posts:
       <p>Advisor: <a href="https://panhui.people.ust.hk/">Prof. Pan Hui</a></p>
     </div>
   </div>
-  <p>Hi, everyone! My name is Xiangze Meng, and you can also call me Richard! Now I am an MPhil student in Computational Media and Arts at The Hong Kong University of Science and Technology (Guangzhou), advised by <a href="https://panhui.people.ust.hk/">Prof. Pan Hui</a>. I received my B.Eng. in Intelligent Science and Technology from Shanghai University in 2025, where I was advised by <a href="https://cs.shu.edu.cn/info/1461/40551.htm">Prof. Liming Xin</a>.</p>
-  <p>I study how people work with generative models. My research interests are human–AI interaction, video generation, agents, and computer vision.</p>
+  <p>Hi, everyone! My name is Xiangze Meng, and you can also call me Richard! Now I am an <strong>MPhil</strong> student in Computational Media and Arts at <strong>The Hong Kong University of Science and Technology (Guangzhou)</strong>, advised by <a href="https://panhui.people.ust.hk/">Prof. Pan Hui</a>. I received my B.Eng. in Intelligent Science and Technology from <strong>Shanghai University</strong> in 2025, where I was advised by <a href="https://cs.shu.edu.cn/info/1461/40551.htm">Prof. Liming Xin</a>.</p>
+  <p>I study how people work with generative models. My research interests are <strong>human–AI interaction</strong>, <strong>video generation</strong>, <strong>agents</strong>, and <strong>computer vision</strong>.</p>
   <p>I enjoy swimming 🏊, badminton 🏸, basketball 🏀, and table tennis 🏓. In my spare time, I also love photography 📷. I often travel with my camera, even though it is really heavy!</p>
 </div>
 
