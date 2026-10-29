@@ -55,8 +55,8 @@ latest_posts:
     margin-top: 0.25rem;
   }
   .prize-card {
-    padding-top: 0.35rem;
-    padding-bottom: 0.35rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.45rem;
   }
 </style>
 

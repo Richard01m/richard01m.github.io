@@ -19,10 +19,8 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
+      <h2>Prize🏆</h2>
       <div class="soft-card prize-card">
-        <h2>
-          <a href="{{ '/news/' | relative_url }}" style="color: inherit">Prize🏆</a>
-        </h2>
         {% include news.liquid limit=true %}
       </div>
     {% endif %}
