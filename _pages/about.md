@@ -50,6 +50,7 @@ latest_posts:
   }
   .intro-card .more-info p {
     display: block;
+    overflow-wrap: anywhere;
   }
   .prize-card {
     padding-top: 0.75rem;
@@ -65,6 +66,7 @@ latest_posts:
       <p>Computational Media and Arts</p>
       <p><a href="https://www.hkust-gz.edu.cn/">HKUST(GZ)</a></p>
       <p>Advisor: <a href="https://panhui.people.ust.hk/">Prof. Pan Hui</a></p>
+      <p>Email: <a href="mailto:xmeng560@connect.hkust-gz.edu.cn">xmeng560@connect.hkust-gz.edu.cn</a></p>
     </div>
   </div>
   <p>Hi, everyone! My name is Xiangze Meng, and you can also call me Richard! Now I am an <strong>MPhil</strong> student in Computational Media and Arts at <strong>The Hong Kong University of Science and Technology (Guangzhou)</strong>, advised by <a href="https://panhui.people.ust.hk/">Prof. Pan Hui</a>. I received my B.Eng. in Intelligent Science and Technology from <strong>Shanghai University</strong> in 2025, where I was advised by <a href="https://cs.shu.edu.cn/info/1461/40551.htm">Prof. Liming Xin</a>.</p>
