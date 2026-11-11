@@ -64,7 +64,7 @@ latest_posts:
 
 <div class="soft-card intro-card">
   <div class="profile float-left">
-    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Xiangze Meng" class="img-fluid z-depth-1 rounded" loading="eager">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}?v=3" alt="Xiangze Meng" class="img-fluid z-depth-1 rounded" loading="eager">
     <div class="more-info">
       <p>MPhil Student</p>
       <p>Computational Media and Arts</p>
