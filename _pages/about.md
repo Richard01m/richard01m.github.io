@@ -75,7 +75,7 @@ latest_posts:
   </div>
   <p>Hi, everyone! My name is Xiangze Meng, and you can also call me Richard!</p>
   <p>Now I am an <strong>MPhil</strong> student in Computational Media and Arts at <strong>The Hong Kong University of Science and Technology (Guangzhou)</strong>, advised by <a href="https://panhui.people.ust.hk/">Prof. Pan Hui</a>. I received my B.Eng. in Intelligent Science and Technology from <strong>Shanghai University</strong> in 2025, where I was advised by <a href="https://cs.shu.edu.cn/info/1461/40551.htm">Prof. Liming Xin</a>.</p>
-  <p>I study how people work with generative models. My research interests are <strong>human–AI interaction</strong>, <strong>video generation</strong>, <strong>agents</strong>, and <strong>computer vision</strong>.</p>
+  <p>I study how people work with generative models. My research interests are <strong>LLM</strong>, <strong>video generation</strong>, <strong>AI for Creativity</strong>, <strong>Human–AI interaction</strong>, and <strong>3D spatial modeling</strong>.</p>
   <p>Beyond that, I am always happy to take on something new. I like trying new things, and I try to bring the latest techniques into the research I am doing now. Odd ideas show up all the time. Some of them are quite far-fetched, but I often try to turn them into something real. Most of my current research started from one of these "odd ideas."</p>
   <p>I enjoy swimming 🏊, badminton 🏸, basketball 🏀, and table tennis 🏓. In my spare time, I also love photography 📷. I often travel with my camera, even though it is really heavy!</p>
   <p>I am currently seeking Ph.D. opportunities for Fall 2027. Feel free to reach out if you are interested in collaboration or potential opportunities! 🎉</p>
